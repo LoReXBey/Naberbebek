@@ -1,0 +1,55 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "canvas-constructor": "^3.1.0",
+    "chalk": "^2.4.2",
+    "cleverbot.io": "^1.0.4",
+    "colors": "^1.4.0",
+    "common-tags": "^1.8.0",
+    "discord-anti-spam-tr": "^0.7.4",
+    "discord-economy": "^1.2.2",
+    "discord.js": "^11.5.1",
+    "discord.js-commando": "^0.10.0",
+    "express": "^4.16.4",
+    "ffmpeg": "^0.0.4",
+    "generate-password": "^1.4.2",
+    "gulp-math": "^1.0.0",
+    "jimp": "^0.8.4",
+    "log": "^6.0.0",
+    "math": "^0.0.3",
+    "math-expression-evaluator": "^1.2.17",
+    "moment": "^2.24.0",
+    "moment-duration-format": "^2.2.2",
+    "node-google-translate-skidz": "^1.1.2",
+    "node-superfetch": "^0.1.9",
+    "opusscript": "^0.0.7",
+    "prefix": "^1.0.0",
+    "quick-db": "^1.0.5",
+    "quick.db": "^6.3.2",
+    "simple-youtube-api": "^5.2.1",
+    "weather-js": "^2.0.0",
+    "ytdl-core": "^1.0.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
